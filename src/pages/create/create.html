@@ -1,0 +1,70 @@
+<!--
+  Generated template for the CreatePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-toolbar color="main">
+	<ion-navbar>
+	
+      <ion-title>Buat Pengaduan</ion-title>
+	
+	  <ion-buttons end>
+		<button ion-button icon-only clear>
+		  <ion-icon name="send"></ion-icon>
+		</button>
+	  </ion-buttons>
+	
+	</ion-navbar>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+	  <ion-item class="attach">
+	  <td class="1">Gambar</td>
+	  
+	  <td><ion-buttons left>
+			<button ion-button icon-end class="ikon" clear>
+				<ion-icon name="attach" color="dark"></ion-icon>
+			</button>
+	  </ion-buttons></td>
+	  </ion-item>
+	
+	  <ion-item>
+		<ion-label inline> Nama </ion-label>
+		<ion-input type="text" value=""></ion-input>
+	  </ion-item>
+	  
+	  <ion-item>
+		<ion-label>Jenis Pengaduan</ion-label>
+		  <ion-select (ngModel)="jenis">
+			<ion-option value="satu">Satu</ion-option>
+			<ion-option value="dua">Dua</ion-option>
+			<ion-option value="tiga">Tiga</ion-option>
+		  </ion-select>
+	  </ion-item>
+	  
+	  <ion-item class="keterangan">
+		<ion-label stacked> Keterangan </ion-label>
+		<ion-input type="text" value=""></ion-input>
+	  </ion-item>
+	  
+	  <ion-item class="pin">
+	  <td class="1">Bagikan Lokasi</td>
+	  
+	  <td><ion-buttons left>
+			<button ion-button icon-end class="ikon2" clear>
+				<ion-icon name="pin" color="dark"></ion-icon>
+			</button>
+	  </ion-buttons></td>
+	  </ion-item>
+	  
+	  
+	
+
+</ion-content>
